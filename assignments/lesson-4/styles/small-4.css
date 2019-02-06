@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+header {
+	width: auto
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	width: 60px;
+	height: 48px;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	display: inline;
+	vertical-align: top;
+}
+
+.motto {
+	width: 280px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: ivory;
+	margin-left: 90px;
+	margin-top: -35px;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+body {
+	background-color: #e5ece4;
+}
+
+nav {
+	background-color: #c5d3c4;
+	margin-top: -20px;
+}
+
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0px;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	}
+
+.preston {
+	background-color: #aebfac;
+}
+
+nav li a:link, a:visited {
+	text-decoration: none;
+	color: ivory;
+	}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wxsummary table {
+	width: 200px;
+	border-style: double;
+}
+
+.contact table {
+	width: 200px;
+	border-style: double;
+}
