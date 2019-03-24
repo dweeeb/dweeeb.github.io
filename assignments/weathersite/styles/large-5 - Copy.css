@@ -1,0 +1,103 @@
+nav ul.hide {
+	display: block;
+}
+
+nav ul {
+	
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	border: none;
+}
+
+nav button {
+	display: none;
+}
+
+.wxsummary h2 {
+	font-size: 28px;
+}
+
+.wxsummary table {
+	width: 340px;
+	top: 40px;
+	font-size: 24px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fivedayoutlook {
+	font-family: 'Cinzel', serif;
+	display: inline;
+}
+
+.fivedayoutlook h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	letter-spacing: 2px;
+	margin: 10px;
+	padding: 0;
+}
+
+.fivedayoutlook table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: medium solid #777;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.fivedayoutlook th {
+	padding: 0px 10px;
+}
+
+.fivedayoutlook td {
+	padding: 0px 10px;
+}
+
+.mainarticle p {
+	width: auto;
+}
+
+.mainarticle img {
+	float: right;
+	width: 35%;
+	height: auto;
+	margin-right: 15px;
+	box-shadow: 3px 3px 6px #999;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns:  auto auto auto;
+	
+}
+
+form label.sbs {
+		padding: .4rem 0;
+	}
+
+#towninfo {
+	grid-template-columns: auto auto auto;
+	margin: 20px auto 0 4%;
+}
+
+#towninfo article {
+	border: solid thin #777;
+}
+
+#homestory {
+	margin: 1em 4% 2em 4%;
+}
+
+#surfer_dan img {
+	box-shadow: 3px 3px 6px #999;
+	float: right;
+	margin: 0 1em;
+}

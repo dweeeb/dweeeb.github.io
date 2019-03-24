@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Homemade+Apple|Montserrat');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #e5ece4;
+}
+
+/* ----- Header Styling ----- */
+
+#headerrow img {
+	width: 110px;
+	margin: 0px 10px 0px 20px;
+}
+
+#headertext {
+	display: flex;
+	flex-direction: column;
+}
+
+header h1 {
+	font-family: 'Cinzel', serif;
+	min-width: 300px;
+}
+
+.motto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: ivory;
+	text-shadow: 1px 1px 3px #000;
+	margin: -20px 0px 0px 5px;
+}
+
+/* ----- Navigation Styling ----- */
+
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: #c5d3c4;
+	
+}
+
+nav button {
+	font-size: 1.6em;
+	margin: 10px;
+}
+
+nav ul.hide {
+	display: none;
+}
+
+nav ul {
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+.active {
+	background-color: #aebfac;
+}
+
+nav li a {
+	display: block;
+	padding: 13px;
+	/* margin-left: 10px; */
+	border-top: 1px solid rgba(0,0,0,0.3);
+	
+}
+
+nav li a:link, a:visited {
+	text-decoration: none;
+	color: ivory;
+	}
+
+nav a:hover {
+	text-decoration: none;
+	text-shadow: 0px 0px 2px #fff;
+	background-color: rgba(0,0,0,0.3);
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
+/* ----- Home Page Article Styling ----- */
+
+#homestory {
+	font-family: 'Montserrat', sans-serif;
+	margin: 1em 2% 2em 2%;
+	padding: 0px 10px 0px 10px;
+	border: solid medium #333;
+	background-color: rgba(0,0,0,.1);
+}
+
+#surfer_dan img {
+	box-shadow: 3px 3px 6px #999;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ----- Town Page Styling ----- */
+
+#title  h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.wxsummary {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+.wxsummary h2 {
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 16px;
+}
+
+.wxsummary img {
+	width: 100%;
+	height: auto;
+}
+
+.wxsummary table {
+	padding: 10px;
+	display: inline;
+	position: absolute;
+	text-align: right;
+	top: 45px;
+	left: 10px;
+	width: 230px;
+	border-style: double;
+	margin: 30px;
+	background-color: rgba(0, 0, 0, .5);
+	}
+
+.wxsummary td {
+	padding: 5px 5px 5px 20px;
+	text-align: left;
+}
+
+.fivedayoutlook {
+	display: none;
+}
+
+.mainarticle {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mainarticle img {
+	display: inline-block;
+	width: 95%;
+	height: auto;
+	margin-left: 15px;
+	margin-right: auto;
+	box-shadow: 3px 3px 6px #999;
+}
+
+.mainarticle h2 {
+	
+	margin-left: 15px;
+}
+
+.mainarticle p {
+	margin-left: 15px;
+}
+
+.mainarticle a {
+	color: blue;
+}
+
+/* ----- Contact Styling ----- */
+
+.contact {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 40px;
+}
+
+.contact li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 8px;
+	}
+
+.contact img {
+	width: 40px;
+	height: auto;
+}
+
+/* ----- Footer Styling ----- */
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 40px;
+}
+
+/* ----- Galllery Page Styling ----- */
+
+.gallery {
+	display: grid;
+	grid-template-columns: auto;	
+}
+
+.gallery img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery img:hover {
+	box-shadow: 3px 3px 3px 3px #999;
+}
+
+.gallery figcaption {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #333;
+	margin-top: 5px;
+}
+
+/* ----------Form Styling -------*/
+
+form fieldset {
+	margin: 1rem;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: .5rem 4%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form legend {
+	color: #445ba9;
+	margin: 0 2rem;
+	padding: 0 0.5rem;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+form label, form div {
+	display: block;
+	padding-top: 1rem;
+	color: #445ba9;
+	font-size: 18px;
+}
+
+form label input, form label select, form textarea {
+	
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#severity {
+	display: inline;
+	width: 14rem;
+	margin-top: -10px;
+}
+
+#danger label {
+	display: inline-block;
+	margin: -30px 10px;
+}
+
+form textarea {
+	margin: 0 0 2rem 4%;
+}
+
+form input.submitBtn {
+	border: none;
+	background-color: #32607f;
+	font-size: 24px;
+	color: white;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 4%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form textarea {
+	display: block;
+	margin: 15px 0px;
+}
+
+form label input:required:invalid {
+	border: red solid 2px;
+}
+
+/* ----- Thanks page styling ----- */
+
+#thanks {
+	border: medium solid #999;
+	border-radius: 20px;
+	border-color: #32607f;
+	width: auto;
+	height: 300px;
+	text-align: center;
+	padding: 20px;
+	margin: 4%;
+}
+
+#thanks h1, h2 {
+	padding: 20px;
+	color: #4f9acc;
+}
+
+/* ----- Home Page Town Info Styling ----- */
+
+#towninfowrapper {
+	display: block;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#towninfo {
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 1em;
+	
+}
+
+#towninfo article {
+	max-width: 400px;
+	display: block;
+	border: solid thin #999;
+	text-align: center;
+	margin-bottom: 1em;
+	
+}
+
+#towninfo article img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+#towninfo article h1 {
+	font-family: 'Cinzel', serif;
+	padding-left: 1em;
+}
+
+#towninfo article h2 {
+	font-family: 'Homemade Apple', cursive;
+	color: #333;
+	padding-left: 1em;
+}
+
+#towninfo article h3 {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 1em;
+}
+
+
+
