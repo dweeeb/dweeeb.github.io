@@ -415,3 +415,17 @@ form label input:required:valid {
 .fivedayoutlook td {
 	padding: 0px 10px;
 }
+
+/* ---------- Thank You Page Styling ------------*/
+
+.thankyou a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thankyou img {
+	margin-bottom: 1em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}

@@ -1,117 +1,112 @@
 <!doctype html>
-<html lang="en">
-	
+
+<html>
 	<head>
-
 		<meta charset="utf-8">
-
-		<meta name="Clarity Weather - Storm Report Thanks" content="storm report thanks">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<title>Clarity Weather - Storm Report Thanks</title>
-
+		<title>Temple Inn and Suites - Home</title>
+				
 		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
 
-		<link href="styles/small-5.css" rel="stylesheet">
+		<link href="styles/small.css" rel="stylesheet">
+
+		<link href="styles/medium.css" rel="stylesheet" media="screen and (min-width: 401px)">
+
+		<link href="styles/large.css" rel="stylesheet" media="screen and (min-width: 801px)">
 		
-		<link href="styles/medium-7.css" rel="stylesheet" media="screen and (min-width: 401px)">
-
-		<link href="styles/large-5.css" rel="stylesheet" media="screen and (min-width: 801px)">
-
-		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
 	</head>
-	
+
 	<body>
 		
 		<header>
 			
-			<div id="headerrow">
+			<!-- Top Header / Banner -->
 			
-				<img src="images/wxlogo.png" alt="Clarity Weather Logo"/>
-
-				<div id="headertext">
-
-					<h1>Clarity Weather</h1>
-
-					<div class="motto">You Can See Clearly Now</div>
-
+			<div class="banner">
+				
+				<img src="images/logo_200w.png" alt="Logo">
+				
+				<div class="bannertext">
+			
+					<h1>Temple Inn and Suites</h1>
+					<h2>Rest. Assured.</h2>
+					
 				</div>
 			
 			</div>
 			
+			<!-- Main Navigation -->				
+				
 			<nav>
-
+				
 				<button onClick="toggleMenu()">&#9776;</button>
 
 				<ul id="navMenu" class="hide">
-
+			
 					<li><a href="index.html">Home</a></li>
-
-					<li><a href="preston-7.html">Preston</a></li>
-
-					<li><a href="index.html">Soda Springs</a></li>
-
-					<li><a href="index.html">Fish Haven</a></li>
-
-					<li><a href="gallery-7.html">Gallery</a></li>			
-
+					<li><a href="reservation.html">Reservations</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="temple_main.html">Temples</a></li>
+					<li><a href="contact.html">Contact Us!</a></li>				
+				
 				</ul>
-
+						
+			</nav>		
+		
+		</header>
+		
+		<main>
+			
+			<figure class="thankyou">
+			
+				<a href="index.html"><img src="images/thank-you.jpg"></a>
+				
+				<figcaption>We Will Respond to Your Request ASAP!</figcaption>
+				
+			</figure>
+		
+		</main>
+		
+		<footer>
+			
+			<!-- Secondary Navigation -->
+			
+			<nav>
+			
+				<ul>
+				
+					<li><a href="reception.html">Receptions</a></li>
+					<li><a href="missionary.html">Missionaries</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+				
 			</nav>
 			
-		</header>
+			<!-- Rights -->
+		
+			<div id="rights">
+			
+				<h2>Temple Inn and Suites</h2>
 				
-		<main>
-
-			<div id="title">
-
-				<h1>Storm Center</h1>
-
-			</div>
-
-			<section>
-
-				<div id="thanks">
-					
-					<h1>Thank You!</h1>
-					
-					<h2>Your contribution makes a difference!</h2>
-
-				</div>
-
-			</section>
-
-			<section class="contact">
-
-				<h3>Contact Us! We'd love to hear from you!</h3>
-
-				<ul>
-					<li><a href="mailto:eggheads@clarityweather.com"><img src="images/email.png" alt="email"></a></li>
-
-					<li><a href="http://www.facebook.com"><img src="images/fb.png" alt="facebook"/></a></li>
-
-					<li><a href="http://www.twitter.com"><img src="images/twt.png" alt="twitter"/></a></li>
-
-					<li><a href="http://www.instagram.com"><img src="images/ig.png" alt="instagram"/></a></li>			
-
-				</ul>
-
-			</section>
-
-			<footer>
-
-				<p>All Text and Images Copyright &copy; Clarity Weather 2019 - All Rights Reserved</p>
+				<p>All Text and Images Copyright &copy; TempleInnSuites.com 2019 - All Rights Reserved</p>
 
 				<p>Today's Date is:  <span id="currentDate"></span></p>
+				
+				<a href="https://www.lds.org/temples/list">Resources</a>
+			
+			</div>
+		
+		</footer>
+		
+		<script src="scripts/currentdate.js"></script>
 
-			</footer>
+		<script src="scripts/togglemenu.js"></script>
 
-		</main>
-					
+		<!-- <script src="scripts/windchill.js"></script>
+
+		<script src="scripts/towninfo.js"></script> -->
+		
 	</body>
-	
+			
 </html>
