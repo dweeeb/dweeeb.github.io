@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Homemade+Apple|Montserrat');
+
+
+/* ---------- Body Styles ---------- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+	background-color: #fcf4e1;
+}
+
+/* ---------- Header Styles ---------- */
+
+.banner {
+	background-image: url("../banner_1920w.jpg");
+	height: 350px;
+}
+
+.banner img {
+	margin: 30px 10px 30px 4%;
+	float: left;
+}
+
+.banner_temple {
+	background-image: url("../banner_temple.jpg");
+	height: 350px;
+}
+
+.banner_temple img {
+	margin: 30px 10px 30px 4%;
+	float: left;
+}
+
+.banner_missionary {
+	background-image: url("../sunset_banner.jpg");
+	height: 350px;
+}
+
+.banner_missionary img {
+	margin: 30px 10px 30px 4%;
+	float: left;
+}
+
+.bannertext {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+}
+
+.bannertext h1 {
+	font-family: 'Cinzel', serif;
+	color: #ae745a;
+	font-size: 3.5em;
+	text-shadow: 3px 3px 3px #000;
+	letter-spacing: 3px;
+}
+
+.bannertext h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: gold;
+	font-size: 3em;
+	text-shadow: 3px 3px 3px #000;
+	margin: -20px 0px 0px 5px;
+}
+
+
+/* ---------- Navigation Styles ---------- */
+
+nav {
+	border: medium solid #777;
+	background-color: #afa69e;
+	height: 45px;
+}
+
+nav button {
+	font-size: 1.6em;
+	margin: 10px;
+}
+
+nav ul.hide {
+	display: none;
+}
+
+nav ul {
+	min-width: 600px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: -25px 2% 0px 2%;
+	font-size: 1.5em;
+	padding: 10px 20px;
+}
+
+nav li a:link {
+	text-decoration: none;
+	color: #333;
+	}
+
+nav li a:visited {
+	text-decoration: none;
+	color: #fcf4e1;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	color: cyan;
+	text-shadow: 0 0 1px #fff;
+}
+
+nav li a:active {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.active {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+/* ---------- Footer Styles ---------- */
+
+footer {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#rights {
+	text-align: center;
+}
+
+#rights h2 {
+	font-family: 'Cinzel', serif;
+	text-shadow: 3px 3px 3px #000;
+	color: #ae745a;
+	font-size: 2em;
+}
+
+#rights p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	color: #afa69e;
+}
+
+#rights a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	color: blue;
+}
+
+
+/* ---------- General Styles ---------- */
+
+article p {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	font-size: 1.3em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1em;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+article img {
+	margin: 1em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+main h1 {
+	font-family: 'Cinzel', serif;
+	color: #ae745a;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 3px 3px 3px #000;
+	letter-spacing: 3px;
+}
+
+main h2 {
+	font-family: 'Cinzel', serif;
+	
+}
+
+main ul {
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main ul li {
+	margin-left: 2em;
+	color: #333;
+}
+
+main figure {
+	display: inline-block;
+}
+
+main figcaption {
+	font-size: 1.5em;
+	color: #333;
+	text-align: center;
+}
+
+
+/* ---------- Contact Form Styling ------------*/
+
+form fieldset {
+	margin: 1rem;
+	border: 1px solid #445ba9;
+	border-radius: 10px;
+	padding: .5rem 4%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form legend {
+	color: #ae745a;
+	margin: 0 2rem;
+	padding: 0 0.5rem;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+form label, form div {
+	display: block;
+	padding-top: 1rem;
+	color: #333;
+	font-size: 18px;
+}
+
+form label input, form label select, form textarea {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #333;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #333;
+	width: 100%;
+	max-width: 20rem;
+	background-color: #ccc;
+}
+
+
+/* ---------- Reservation Page & Form Styling ------------*/
+
+#reservationForm {
+	background-color: rgba(0,0,0,0.1);	
+}
+
+form textarea {
+	display: block;
+	margin: 15px 0px;
+}
+
+form input.submitBtn {
+	border: solid medium #333;
+	background-color: #90bcd6;
+	font-size: 36px;
+	color: #fff;
+	border-radius: 1rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 5%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form label input:required:invalid {
+	border-left: red solid 5px;
+}
+
+form label input:required:valid {
+	border-left: green solid 5px;
+}
+
+#reservation {
+	display: inline-block;
+}
+
+#reservation img {
+	float: left;
+}
+
+
+/* ---------- Services Page Styling ------------*/
+
+#services {
+	display: inline-block;
+}
+
+#services img {
+	float: left;
+	margin-left: 4%;
+}
+
+#servicesplus {
+
+}
+
+#amenities {
+	margin: 0 0 0 4%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+#reception {
+	margin-left: 4%;
+	margin-bottom: 1em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+#missionary {
+	margin-left: 4%;
+	margin-bottom: 1em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+
+/* ---------- Temple Main Page Styling ------------*/
+
+.temple_main {
+	margin-left: 4%;
+}
+
+.temple_main h2 {
+	color: darkblue
+}
+
+
+/* ---------- Temple 1-4 Page Styling ------------*/
+
+.temple_article {
+	display: inline-block;
+	margin-left: 4%;
+}
+
+.temple_article img {
+	float: left;
+	margin: 1em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+.temple_article h2 {
+	margin-left: 2em;
+}
+
+.temple_article ul {
+	margin-left: 3em;
+}
+
+.temple_article p {
+}
+
+.templemap {
+	margin-left: 2%;
+}
+
+.wxsummary {
+	margin-left: 6%;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+.wxsummary h2 {
+	color: #333;
+}
+
+.wxsummary img {
+	width: 100%;
+	height: auto;
+}
+
+.wxsummary table {
+	padding: 10px;
+	text-align: right;
+	width: 400px;
+	border-style: double;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+	}
+
+.wxsummary td {
+	padding: 5px 5px 5px 20px;
+	text-align: left;
+}
+
+.fivedayoutlook {
+	font-family: 'Cinzel', serif;
+	margin: 0 0 30px 6%;
+}
+
+.fivedayoutlook h2 {
+	
+}
+
+.fivedayoutlook table {
+	text-align: center;
+	border: medium solid #777;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #999;
+}
+
+.fivedayoutlook th {
+	padding: 0px 10px;
+}
+
+.fivedayoutlook td {
+	padding: 0px 10px;
+}

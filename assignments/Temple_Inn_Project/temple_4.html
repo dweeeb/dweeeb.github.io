@@ -1,0 +1,224 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Temple Inn and Suites - Temple 1</title>
+				
+		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+
+		<link href="styles/small.css" rel="stylesheet">
+
+		<link href="styles/medium.css" rel="stylesheet" media="screen and (min-width: 401px)">
+
+		<link href="styles/large.css" rel="stylesheet" media="screen and (min-width: 801px)">
+		
+	</head>
+
+	<body>
+		
+		<header>
+			
+			<!-- Top Header / Banner -->
+			
+			<div class="banner_temple">
+				
+				<img src="images/logo_200w.png" alt="Logo">
+				
+				<div class="bannertext">
+			
+					<h1>Temple Inn and Suites.com</h1>
+					<h2>Rest. Assured.</h2>
+					
+				</div>
+			
+			</div>
+			
+			<!-- Main Navigation -->				
+				
+			<nav>
+				
+				<button onClick="toggleMenu()">&#9776;</button>
+
+				<ul id="navMenu" class="hide">
+			
+					<li><a href="index.html">Home</a></li>
+					<li><a href="temple_main.html">Temples</a></li>
+					<li><a href="temple_1.html">Jordan River</a></li>
+					<li><a href="temple_2.html">Preston</a></li>
+					<li><a href="temple_3.html">Tijuana</a></li>
+					<li class="active"><a href="temple_4.html">Timpanogos</a></li>				
+				
+				</ul>
+						
+			</nav>		
+		
+		</header>
+		
+		<main>
+			
+			<h1>Mount Timpanogos - American Fork, Utah</h1>
+			
+			<section>
+			
+				
+
+				<article  class="temple_article">
+					
+					<img src="./images/Timpanogos_Temple_1_600w.jpg" alt="Jordan River Temple">
+
+					<p>Located in northeast American Fork, the Mount Timpanogos Utah Temple stands west of the majestic 11,750-foot Mount Timpanogos, providing the aptly named temple its stunning backdrop. A meetinghouse shares the temple site, which features beautiful grounds open to visitors, who are welcome to take in the colorful foliage, stroll its winding walkways, and feel the spirit of holiness surrounding this magnificent House of the Lord.</p>
+
+					<p>Ground was broken for the Mount Timpanogos Utah Temple a year after its announcement. Approximately 12,000 people gathered on the temple site for the ceremony. During the services, the location of the Madrid Spain Temple was announced. On July 17, 1995, a 13-foot-3-inch gold-leafed statue of the angel Moroni was set atop the Mount Timpanogos Utah Temple to an audience of an estimated 20,000, who literally clogged the surrounding streets. Once the statue was in place, the throngs of visitors broke into applause and then spontaneously began to sing The Spirit of God.</p>
+					
+					<p>Address:<br>742 North 900 East<br>American Fork UT 84003-9124<br>United States<br><br>Telephone:<br>(1) 801-763-4540</p>
+					
+					<h2>Milestones</h2>
+					<ul>
+						<li>3 October 1992 - Announced</li>
+						<li>9 October 1993 - Groundbreaking</li>
+						<li>13 October 1996 - Dedicated — dedicatory prayer</li>
+					</ul>
+					
+					<h2>Services</h2>
+					<ul>
+						<li>Clothing rental available</li>
+						<li>Cafeteria available</li>
+						<li>No patron housing available</li>
+						<li>Distribution center nearby</li>					
+					</ul>
+					
+					<h2>Temple Closure Dates</h2>
+					<ul>
+						<li>Monday, 13 May 2019 - Monday, 27 May 2019</li>
+						<li>Thursday, 4 July 2019</li>
+						<li>Wednesday, 24 July 2019</li>
+						<li>Saturday, 5 October 2019</li>
+						<li>Monday, 11 November 2019 - Tuesday, 26 November 2019</li>
+						<li>Wednesday, 27 November 2019 - Thursday, 28 November 2019</li>
+						<li>Tuesday, 24 December 2019 - Wednesday, 25 December 2019</li>
+						<li>Tuesday, 31 December 2019</li>
+					</ul>
+					
+					<h2>Click on the Map for Driving Directions</h2>
+					
+					<div class="templemap">
+						<a href="https://www.lds.org/temples/map?lang=eng&templeName=mount-timpanogos-utah-temple"><img src="images/Timpanogos_Temple_map.JPG" alt="Map of Mount Timpanogos Temple"></a>
+					</div>
+
+				</article>
+				
+			</section>
+			
+			
+			<div class="wxsummary">
+
+					<h2>Current Weather Conditions</h2>
+
+					<table>
+
+						<tbody>
+							<tr>
+								<th scope="row">Temperature</th>
+								<td><span id="temp"></span>&deg;</td>
+							</tr>
+							<tr>
+								<th scope="row">Wind Chill</th>
+								<td><span id="windchill"></span>&deg;</td>
+							</tr>
+							<tr>
+								<th scope="row">Wind Speed</th>
+								<td><span id="windspeed"></span> MPH</td>
+							</tr>
+							<tr>
+								<th scope="row">Humidity</th>
+								<td><span id="humidity"></span>%</td>
+							</tr>
+							<tr>
+								<th scope="row">Barometer</th>
+								<td><span id="baro"></span> mmHg</td>
+							</tr>							
+						</tbody>
+
+					</table>
+
+				</div>
+			
+				<div class="fivedayoutlook">
+					
+					<h2>Five Day Outlook</h2>
+
+					<table>
+						<tr>
+							<th id="day1"></th> 
+							<th id="day2"></th>
+							<th id="day3"></th>
+							<th id="day4"></th>
+							<th id="day5"></th>
+						</tr>
+						<tr>
+							<td><img id="icon1"></td>
+							<td><img id="icon2"></td>
+							<td><img id="icon3"></td>
+							<td><img id="icon4"></td>
+							<td><img id="icon5"></td>
+						</tr>
+						<tr>
+							<td><span id="temp1"></span>&deg</td>
+							<td><span id="temp2"></span>&deg</td>
+							<td><span id="temp3"></span>&deg</td>
+							<td><span id="temp4"></span>&deg</td>
+							<td><span id="temp5"></span>&deg</td>
+						</tr>
+            		</table> 
+
+				</div>
+			
+		</main>
+		
+		<footer>
+			
+			<!-- Secondary Navigation -->
+			
+			<nav id="bottomnav">
+			
+				<ul>
+				
+					<li><a href="reception.html">Receptions</a></li>
+					<li><a href="missionary.html">Missionaries</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+				
+			</nav>
+			
+			<!-- Rights -->
+		
+			<div id="rights">
+			
+				<h2>Temple Inn and Suites</h2>
+				
+				<p>All Text and Images Copyright &copy; TempleInnSuites.com 2019 - All Rights Reserved</p>
+
+				<p>Today's Date is:  <span id="currentDate"></span></p>
+								
+				<a href="https://www.lds.org/temples/list">Resources</a>
+			
+			</div>
+		
+		</footer>
+		
+		<script src="scripts/currentdate.js"></script>
+
+		<script src="scripts/togglemenu.js"></script>
+		
+		<script src="scripts/Temple4Wx.js"></script>
+
+		<script src="scripts/windchill.js"></script>
+
+		
+		
+	</body>
+			
+</html>

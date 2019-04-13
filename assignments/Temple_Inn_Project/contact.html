@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Temple Inn and Suites - Contact Us</title>
+				
+		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+
+		<link href="styles/small.css" rel="stylesheet">
+
+		<link href="styles/medium.css" rel="stylesheet" media="screen and (min-width: 401px)">
+
+		<link href="styles/large.css" rel="stylesheet" media="screen and (min-width: 801px)">
+		
+	</head>
+
+	<body>
+		
+		<header>
+			
+			<!-- Top Header / Banner -->
+			
+			<div class="banner">
+				
+				<img src="images/logo_200w.png" alt="Logo">
+				
+				<div class="bannertext">
+			
+					<h1>Temple Inn and Suites.com</h1>
+					<h2>Rest. Assured.</h2>
+					
+				</div>
+			
+			</div>
+			
+			<!-- Main Navigation -->				
+				
+			<nav>
+				
+				<button onClick="toggleMenu()">&#9776;</button>
+
+				<ul id="navMenu" class="hide">
+			
+					<li><a href="index.html">Home</a></li>
+					<li><a href="reservation.html">Reservations</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="temple_main.html">Temples</a></li>
+					<li class="active"><a href="contact.html">Contact Us!</a></li>				
+				
+				</ul>
+						
+			</nav>		
+		
+		</header>
+		
+		<main>
+			
+			<!-- Contact Form -->
+		
+			<div id="contact">
+
+					<form method="get" action="thanks.html">
+		
+						 <fieldset>
+
+							<legend>Contact Us! We'd love to hear from you!</legend>
+
+							<label>Full Name* <input type="text" name="fullName" required pattern="[A-Za-z ]{5,}"></label>
+							 
+							<label>Email Address* <input type="email" name="email" placeholder="someone@xyz.com" required></label>
+							 
+							<label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+							 
+							<label>Zip Code <input type="number" name="zipCode" required></label>
+
+							<label>Share Your Thoughts! -</label>
+							<textarea name="comments" rows="10" cols="120" wrap="soft"></textarea>
+						
+						</fieldset>
+
+						<input class="submitBtn" type="submit" value="Submit">
+
+					</form>
+					
+				</div>
+		
+			
+		
+		</main>
+		
+		<footer>
+			
+			<!-- Secondary Navigation -->
+			
+			<nav id="bottomnav">
+			
+				<ul>
+				
+					<li><a href="reception.html">Receptions</a></li>
+					<li><a href="missionary.html">Missionaries</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+				
+			</nav>
+			
+			<!-- Rights -->
+		
+			<div id="rights">
+			
+				<h2>Temple Inn and Suites</h2>
+				
+				<p>All Text and Images Copyright &copy; TempleInnSuites.com 2019 - All Rights Reserved</p>
+
+				<p>Today's Date is:  <span id="currentDate"></span></p>
+								
+				<a href="https://www.lds.org/temples/list">Resources</a>
+			
+			</div>
+		
+		</footer>
+		
+		<script src="scripts/currentdate.js"></script>
+
+		<script src="scripts/togglemenu.js"></script>
+
+		<!-- <script src="scripts/windchill.js"></script>
+
+		<script src="scripts/towninfo.js"></script> -->
+		
+	</body>
+			
+</html>

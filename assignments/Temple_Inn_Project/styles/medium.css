@@ -1,0 +1,35 @@
+.banner {
+	display: flex;
+}
+
+#home_Welcome {
+	display: inline-block;
+}
+
+#home_Welcome img {
+	float: right;
+}
+
+#home_Temple {
+	display: inline-block;
+}
+
+#home_Temple img {
+	float: left;
+}
+
+.temples_right {
+	display: inline-block;
+}
+
+.temples_right img {
+	float: right;
+}
+
+.temples_left {
+	display: inline-block;
+}
+
+.temples_left img {
+	float: left;
+}

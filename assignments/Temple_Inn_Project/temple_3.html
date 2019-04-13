@@ -1,0 +1,223 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Temple Inn and Suites - Temple 1</title>
+				
+		<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+
+		<link href="styles/small.css" rel="stylesheet">
+
+		<link href="styles/medium.css" rel="stylesheet" media="screen and (min-width: 401px)">
+
+		<link href="styles/large.css" rel="stylesheet" media="screen and (min-width: 801px)">
+		
+	</head>
+
+	<body>
+		
+		<header>
+			
+			<!-- Top Header / Banner -->
+			
+			<div class="banner_temple">
+				
+				<img src="images/logo_200w.png" alt="Logo">
+				
+				<div class="bannertext">
+			
+					<h1>Temple Inn and Suites.com</h1>
+					<h2>Rest. Assured.</h2>
+					
+				</div>
+			
+			</div>
+			
+			<!-- Main Navigation -->				
+				
+			<nav>
+				
+				<button onClick="toggleMenu()">&#9776;</button>
+
+				<ul id="navMenu" class="hide">
+			
+					<li><a href="index.html">Home</a></li>
+					<li><a href="temple_main.html">Temples</a></li>
+					<li><a href="temple_1.html">Jordan River</a></li>
+					<li><a href="temple_2.html">Preston</a></li>
+					<li class="active"><a href="temple_3.html">Tijuana</a></li>
+					<li><a href="temple_4.html">Timpanogos</a></li>
+					
+				</ul>
+						
+			</nav>		
+		
+		</header>
+		
+		<main>
+			
+			<h1>Tijuana - Mexico</h1>
+			
+			<section>
+			
+				
+
+				<article  class="temple_article">
+					
+					<img src="./images/Tijuana_Mexico_Temple_1_600w.jpg" alt="Jordan River Temple">
+
+					<p>On October 2, 2010, during the opening session of the 180th Semiannual General Conference, President Thomas S. Monson announced that Mexico's thirteenth temple would be constructed in the border town of Tijuana where the Church has experienced rapid growth in recent years.2 The Saints of Tijuana currently must cross the U.S.-Mexico border to partake in ordinance work at the San Diego California Temple. Six stakes are headquartered in the city of Tijuana with nearby stakes located in the states of Baja California and Sonora.</p> 
+
+					<p>The design of the Tijuana Mexico Temple reflects the Spanish Colonial influences that characterize much of Mexican architecture including the Spanish missions found throughout Mexico and the southwestern United States—specifically the San Xavier del Bac Mission in Tucson, Arizona. The brilliant white exterior symbolizes the holy purpose of the temple, which is crowned with a distinctive central tower, lifting the eyes heavenward. Towering palm trees and colorful landscaping will decorate the temple grounds.</p>
+					
+					<p>Address:<br>Paseo Del Rio 6832<br>Esquina Campestre Oriente<br>Col 3 RA Etapa Rio Tijuana<br>22226 Tijuana<br>Baja California - Mexico<br><br>Telephone:<br>(52) 664-969-2690</p>
+					
+					<h2>Milestones</h2>
+					<ul>
+						<li>2 October 2010 - Announced</li>
+						<li>18 August 2012 - Groundbreaking</li>
+						<li>13 December 2015 - Dedicated — dedicatory prayer</li>
+					</ul>
+					
+					<h2>Services</h2>
+					<ul>
+						<li>No clothing rental available</li>
+						<li>No cafeteria available</li>
+						<li>No patron housing available</li>
+						<li>Distribution center nearby</li>
+					</ul>
+					
+					<h2>Temple Closure Dates</h2>
+					<ul>
+						<li>Friday, 10 May 2019 (Limited Hours)</li>
+						<li>Sunday, 16 June 2019 - Monday, 1 July 2019</li>
+						<li>Saturday, 5 October 2019</li>
+						<li>Sunday, 17 November 2019 - Monday, 2 December 2019</li>
+						<li>Tuesday, 24 December 2019 - Wednesday, 25 December 2019</li>
+						<li>Tuesday, 31 December 2019 (Limited Hours) 2020</li>
+						<li>Wednesday, 1 January 2020</li>
+					</ul>
+					
+					<h2>Click on the Map for Driving Directions</h2>
+					
+					<div class="templemap">
+						<a href="https://www.lds.org/temples/map?lang=eng&templeName=tijuana-mexico-temple"><img src="images/Tijuana_Mexico_Temple_map.JPG" alt="Map of Tijuana Mexico Temple"></a>
+					</div>
+
+				</article>
+				
+			</section>
+			
+			
+			<div class="wxsummary">
+
+					<h2>Current Weather Conditions</h2>
+
+					<table>
+
+						<tbody>
+							<tr>
+								<th scope="row">Temperature</th>
+								<td><span id="temp"></span>&deg;</td>
+							</tr>
+							<tr>
+								<th scope="row">Wind Chill</th>
+								<td><span id="windchill"></span>&deg;</td>
+							</tr>
+							<tr>
+								<th scope="row">Wind Speed</th>
+								<td><span id="windspeed"></span> MPH</td>
+							</tr>
+							<tr>
+								<th scope="row">Humidity</th>
+								<td><span id="humidity"></span>%</td>
+							</tr>
+							<tr>
+								<th scope="row">Barometer</th>
+								<td><span id="baro"></span> mmHg</td>
+							</tr>							
+						</tbody>
+
+					</table>
+
+				</div>
+			
+				<div class="fivedayoutlook">
+					
+					<h2>Five Day Outlook</h2>
+
+					<table>
+						<tr>
+							<th id="day1"></th> 
+							<th id="day2"></th>
+							<th id="day3"></th>
+							<th id="day4"></th>
+							<th id="day5"></th>
+						</tr>
+						<tr>
+							<td><img id="icon1"></td>
+							<td><img id="icon2"></td>
+							<td><img id="icon3"></td>
+							<td><img id="icon4"></td>
+							<td><img id="icon5"></td>
+						</tr>
+						<tr>
+							<td><span id="temp1"></span>&deg</td>
+							<td><span id="temp2"></span>&deg</td>
+							<td><span id="temp3"></span>&deg</td>
+							<td><span id="temp4"></span>&deg</td>
+							<td><span id="temp5"></span>&deg</td>
+						</tr>
+            		</table> 
+
+				</div>
+			
+		</main>
+		
+		<footer>
+			
+			<!-- Secondary Navigation -->
+			
+			<nav id="bottomnav">
+			
+				<ul>
+				
+					<li><a href="reception.html">Receptions</a></li>
+					<li><a href="missionary.html">Missionaries</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+				
+			</nav>
+			
+			<!-- Rights -->
+		
+			<div id="rights">
+			
+				<h2>Temple Inn and Suites</h2>
+				
+				<p>All Text and Images Copyright &copy; TempleInnSuites.com 2019 - All Rights Reserved</p>
+
+				<p>Today's Date is:  <span id="currentDate"></span></p>
+								
+				<a href="https://www.lds.org/temples/list">Resources</a>
+			
+			</div>
+		
+		</footer>
+		
+		<script src="scripts/currentdate.js"></script>
+
+		<script src="scripts/togglemenu.js"></script>
+		
+		<script src="scripts/Temple3Wx.js"></script>
+
+		<script src="scripts/windchill.js"></script>
+
+		
+		
+	</body>
+			
+</html>
